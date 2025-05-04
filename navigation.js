@@ -41,7 +41,7 @@ function openModal(id) {
   function closeModal(id) {
     document.getElementById(`modal-${id}`).classList.remove("active");
   }
-  
+
 // Close modal when clicking outside the modal-content
 document.addEventListener('click', function (event) {
     document.querySelectorAll('.news-modal.active').forEach(modal => {
@@ -50,3 +50,5 @@ document.addEventListener('click', function (event) {
       }
     });
   });  
+
+  

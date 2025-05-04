@@ -299,6 +299,49 @@ header {
 }
 
 
+.page-intro {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: #444;
+}
+
+.city-title {
+  font-size: 24px;
+  color: #601a7c;
+  margin: 40px 0 20px;
+  border-bottom: 2px solid #601a7c;
+  padding-bottom: 8px;
+}
+
+.opportunity-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.opportunity-card {
+  background-color: #f5f5f5;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+
+.opportunity-card h4 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  color: #00843a;
+}
+
+.opportunity-card p {
+  font-size: 16px;
+  margin: 6px 0;
+  color: #333;
+}
+
+
+
 
 
 

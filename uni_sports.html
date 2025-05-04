@@ -32,9 +32,102 @@
       </div>
     </div>
   </header>
-  <main>
-    <!-- Your content goes here -->
-  </main>
+    <main>
+        <div class="main-container">
+          <h2 class="section-title">University Sports News</h2>
+      
+          <button class="headline-card" onclick="openModal(207)">
+        <img src="img/slide1.jpeg" alt="Vikings comeback win">
+        <p><strong>Edge Hill Vikings defeat Lancaster Bombers after a comeback</strong></p>
+      </button>
+      
+          <div class="news-columns">
+            <!-- Edge Hill Vikings -->
+            <button class="news-card" onclick="openModal(201)">
+              <img src="img/slide1.jpeg" alt="Vikings win match">
+              <p>Vikings crush Leeds 42–14 in season opener.</p>
+            </button>
+            <button class="news-card" onclick="openModal(202)">
+              <img src="img/slide1.jpeg" alt="Vikings injury update">
+              <p>Vikings lose star linebacker to injury ahead of derby.</p>
+            </button>
+      
+            <!-- Football Team -->
+            <button class="news-card" onclick="openModal(203)">
+              <img src="img/slide1.jpeg" alt="Football team win">
+              <p>Men’s Football wins 2–1 with last-minute goal.</p>
+            </button>
+            <button class="news-card" onclick="openModal(204)">
+              <img src="img/slide1.jpeg" alt="Football team loss">
+              <p>Women’s team suffers 0–2 defeat against Manchester Met.</p>
+            </button>
+      
+            <!-- Basketball Team -->
+            <button class="news-card" onclick="openModal(205)">
+              <img src="img/slide1.jpeg" alt="Basketball team">
+              <p>Basketball team qualifies for regional final.</p>
+            </button>
+      
+            <!-- Rugby Team -->
+            <button class="news-card" onclick="openModal(206)">
+              <img src="img//slide1.jpeg" alt="Rugby match">
+              <p>Rugby team struggles in rain-soaked clash vs Lancaster.</p>
+            </button>
+          </div>
+      
+          <!-- Modals -->
+          <div class="news-modal" id="modal-201">
+            <div class="modal-content">
+              <span class="close-button" onclick="closeModal(201)">&times;</span>
+              <img src="img/vikings-win.jpg" alt="Vikings win match">
+              <p>The Edge Hill Vikings dominated their season opener against Leeds, finishing with a 42–14 win. New quarterback Tom J. threw 3 touchdowns, and the defense forced 4 turnovers in a commanding performance.</p>
+            </div>
+          </div>
+          <div class="news-modal" id="modal-202">
+            <div class="modal-content">
+              <span class="close-button" onclick="closeModal(202)">&times;</span>
+              <img src="img/vikings-injury.jpg" alt="Vikings injury update">
+              <p>Star linebacker Alex M. is out for 6 weeks due to a hamstring tear sustained in training. The Vikings face key rivals this weekend without their top tackler.</p>
+            </div>
+          </div>
+          <div class="news-modal" id="modal-203">
+            <div class="modal-content">
+              <span class="close-button" onclick="closeModal(203)">&times;</span>
+              <img src="img/football-win.jpg" alt="Football team win">
+              <p>Edge Hill’s Men’s Football team secured a thrilling 2–1 win over UCLan with a 93rd-minute goal from striker Jamie T. The team moves up to second in the league table.</p>
+            </div>
+          </div>
+          <div class="news-modal" id="modal-204">
+            <div class="modal-content">
+              <span class="close-button" onclick="closeModal(204)">&times;</span>
+              <img src="img/football-loss.jpg" alt="Football team loss">
+              <p>Despite dominating possession, Edge Hill’s Women’s squad couldn’t find the net in a 0–2 home defeat. Manchester Met capitalized on counterattacks to take the win.</p>
+            </div>
+          </div>
+          <div class="news-modal" id="modal-205">
+            <div class="modal-content">
+              <span class="close-button" onclick="closeModal(205)">&times;</span>
+              <img src="img/basketball-final.jpg" alt="Basketball team">
+              <p>The Edge Hill Basketball team fought back from 15 points down to win their semi-final match and book a place in the BUCS North Final next weekend.</p>
+            </div>
+          </div>
+          <div class="news-modal" id="modal-206">
+            <div class="modal-content">
+              <span class="close-button" onclick="closeModal(206)">&times;</span>
+              <img src="img/rugby-loss.jpg" alt="Rugby match">
+              <p>The Rugby squad battled hard against Lancaster but struggled with wet conditions and ball handling. Final score: 12–18.</p>
+            </div>
+          </div>
+      
+        </div>
+        <div class="news-modal" id="modal-207">
+          <div class="modal-content">
+            <span class="close-button" onclick="closeModal(207)">&times;</span>
+            <img src="img/vikings-comeback.jpg" alt="Vikings comeback win">
+            <p>The Edge Hill Vikings delivered a thrilling 28–24 comeback victory against the Lancaster Bombers after trailing by 14 at halftime. Led by senior quarterback Nathan P., the team rallied in the final quarter to secure the win and ignite hopes for a strong playoff run.</p>
+          </div>
+        </div>
+      </main>
 
   <footer class="site-footer">
     <div class="footer-container">

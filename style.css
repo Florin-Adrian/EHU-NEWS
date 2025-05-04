@@ -340,9 +340,32 @@ header {
   color: #333;
 }
 
+.headline-card {
+  flex: 1 1 100%;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  padding: 16px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  border: none;
+  margin-bottom: 40px;
+}
 
+.headline-card img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  border-radius: 6px;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
 
-
+.headline-card p {
+  font-size: 25px;
+  color:  #00843a;
+}
 
 
 @media (max-width: 768px) {

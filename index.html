@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EHU News</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-wrapper">
+    <header>
+      <div class="nav-container">
+        <div class="logo">
+          <h3><span class="logo-ehu">EHU</span> <span class="logo-news">NEWS</span></h3>
+        </div>
+        <nav class="nav-links">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="opportunities.html">Opportunities</a></li>
+            <li><a href="uni_sports.html">University Spots</a></li>
+          </ul>
+        </nav>
+        <div class="hamburger">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="main-container">
+        <!-- Slideshow -->
+        <div class="slideshow-container">
+          <div class="slide active fade"><img src="img/slide1.jpeg" alt="Slide 1"></div>
+          <div class="slide fade"><img src="img/slide2.jpg" alt="Slide 2"></div>
+          <div class="slide fade"><img src="img/slide3.jpg" alt="Slide 3"></div>
+          <div class="slide fade"><img src="img/slide4.jpg" alt="Slide 4"></div>
+          <div class="slide fade"><img src="img/slide5.jpg" alt="Slide 5"></div>
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+
+        <!-- Breaking News -->
+        <h2 class="section-title">Breaking News</h2>
+        <div class="news-columns">
+          <button class="news-card" onclick="openModal(1)">
+            <img src="img/slide1.jpeg" alt="News 1">
+            <p>Brief intro to breaking story 1.</p>
+          </button>
+          <button class="news-card" onclick="openModal(2)">
+            <img src="img/slide1.jpeg" alt="News 2">
+            <p>Brief intro to breaking story 2.</p>
+          </button>
+          <button class="news-card" onclick="openModal(3)">
+            <img src="img/slide1.jpeg" alt="News 3">
+            <p>Brief intro to breaking story 3.</p>
+          </button>
+        </div>
+
+        <!-- Recent News -->
+        <h2 class="section-title">Recent News</h2>
+        <div class="news-columns">
+          <button class="news-card" onclick="openModal(4)">
+            <img src="img/slide1.jpeg" alt="Recent 1">
+            <p>Quick glance at recent story 1.</p>
+          </button>
+          <button class="news-card" onclick="openModal(5)">
+            <img src="img/slide1.jpeg" alt="Recent 2">
+            <p>Quick glance at recent story 2.</p>
+          </button>
+          <button class="news-card" onclick="openModal(6)">
+            <img src="img/slide1.jpeg" alt="Recent 3">
+            <p>Quick glance at recent story 3.</p>
+          </button>
+        </div>
+
+        <!-- Modals -->
+        <div class="news-modal" id="modal-1">
+          <div class="modal-content">
+            <span class="close-button" onclick="closeModal(1)">&times;</span>
+            <img src="img/slide1.jpeg" alt="News 1">
+            <p>Full story details for News 1. Lorem ipsum dolor sit amet...</p>
+          </div>
+        </div>
+        <div class="news-modal" id="modal-2">
+          <div class="modal-content">
+            <span class="close-button" onclick="closeModal(2)">&times;</span>
+            <img src="img/slide1.jpeg" alt="News 2">
+            <p>Full story details for News 2. Lorem ipsum dolor sit amet...</p>
+          </div>
+        </div>
+        <div class="news-modal" id="modal-3">
+          <div class="modal-content">
+            <span class="close-button" onclick="closeModal(3)">&times;</span>
+            <img src="img/slide1.jpeg" alt="News 3">
+            <p>Full story details for News 3. Lorem ipsum dolor sit amet...</p>
+          </div>
+        </div>
+        <div class="news-modal" id="modal-4">
+          <div class="modal-content">
+            <span class="close-button" onclick="closeModal(4)">&times;</span>
+            <img src="img/slide1.jpeg" alt="Recent 1">
+            <p>Full story details for Recent 1. Lorem ipsum dolor sit amet...</p>
+          </div>
+        </div>
+        <div class="news-modal" id="modal-5">
+          <div class="modal-content">
+            <span class="close-button" onclick="closeModal(5)">&times;</span>
+            <img src="img/slide1.jpeg" alt="Recent 2">
+            <p>Full story details for Recent 2. Lorem ipsum dolor sit amet...</p>
+          </div>
+        </div>
+        <div class="news-modal" id="modal-6">
+          <div class="modal-content">
+            <span class="close-button" onclick="closeModal(6)">&times;</span>
+            <img src="img/slide1.jpeg" alt="Recent 3">
+            <p>Full story details for Recent 3. Lorem ipsum dolor sit amet...</p>
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-container">
+        <p>&copy; 2025 EHU News. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="navigation.js"></script>
+</body>
+</html>
